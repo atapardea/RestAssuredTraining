@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class basics {
 
 	
-	@Test
+	//@Test
 	public void firstTest() {
 		
 		
@@ -45,15 +45,24 @@ public class basics {
 		when().
 			get("maps/api/place/textsearch/json").
 		then().
-			assertThat().statusCode(200).and().contentType(ContentType.JSON).
-			and().body("results[0].name",equalTo( "Tetsuya's Restaurant"));
-			
+			assertThat().statusCode(200).
+			and().contentType(ContentType.JSON).
+			and().body("results[0].name",equalTo( "Tetsuya's Restaurant")).
+			and().body("results[0].id", equalTo("827f1ac561d72ec25897df088199315f7cbbc8ed")).
+			and().header("Server", "pablo");
+	
+	}
 
-			
-			
-			
-			
-			
+	
+	@Test
+	public void postRequest () {
+		
+		
+//		given().
+//				queryParam("key","AIzaSyDzDxQiRZn3125gbC-9Wc23AswLSMuud_w").
+//				body();
+//		when().
+		
 	}
 	
 }

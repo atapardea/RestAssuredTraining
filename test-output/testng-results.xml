@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2394" started-at="2017-08-22T21:35:17Z" finished-at="2017-08-22T21:35:19Z">
+  <suite name="Default suite" duration-ms="4953" started-at="2017-08-23T20:47:44Z" finished-at="2017-08-23T20:47:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2394" started-at="2017-08-22T21:35:17Z" finished-at="2017-08-22T21:35:19Z">
-      <class name="basics">
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:basics@5cc7c2a6]" name="firstTest" duration-ms="2379" started-at="2017-08-23T00:35:17Z" finished-at="2017-08-23T00:35:19Z">
+    <test name="Default test" duration-ms="4953" started-at="2017-08-23T20:47:44Z" finished-at="2017-08-23T20:47:48Z">
+      <class name="com.atp.restapi.basics">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.atp.restapi.basics@5cc7c2a6]" name="firstTest" duration-ms="4937" started-at="2017-08-23T23:47:44Z" finished-at="2017-08-23T23:47:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-      </class> <!-- basics -->
+      </class> <!-- com.atp.restapi.basics -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
